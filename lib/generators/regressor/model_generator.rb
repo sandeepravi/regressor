@@ -37,7 +37,7 @@ module Regressor
       begin
         yield
       rescue => e
-        puts "Cannot create model regression for #{model}. Reason #{e.message}"
+        puts "Cannot create model regression for #{model}. Reason #{e.message} - #{e.inspect}"
       end
     end
 
