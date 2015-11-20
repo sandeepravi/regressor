@@ -25,4 +25,8 @@ module Regressor
       @include_enums = true
     end
   end
+  
+  Regressor.configure do |config|
+  end
+
 end
